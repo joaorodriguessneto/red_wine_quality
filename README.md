@@ -117,7 +117,6 @@
 
 O gráfico acima apresenta a distribuição da densidade nos vinhos tintos, mas devido à grande quantidade de valores únicos e à proximidade entre eles, o resultado ficou visualmente poluído, dificultando a interpretação dos dados. O excesso de barras estreitas e sobreposição nos rótulos do eixo X compromete a clareza da visualização. Para melhorar a leitura e tornar a análise mais compreensível, optei por agrupar os valores por faixas (dezenas), o que permite observar padrões e tendências de forma mais clara e objetiva, sem perder informações relevantes.
 
-![grafico de barras](https://github.com/joaorodriguessneto/red_wine_quality/blob/main/img_readme/grafico_frequencia_densidade_dezena.png)
 
 
 
