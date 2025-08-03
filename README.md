@@ -95,6 +95,33 @@
 8. Análise da importância das variáveis (feature importance)
 9. Geração de insights e recomendações
 
+## 🧠 Principais insights da análise exploratória 
+
+
+#### Após a análise realizada, foi possível identificar que as características que mais influenciam na qualidade dos vinhos, dentro do conjunto de dados analisado, como: a acidez fixa, a densidade, o teor de ácido cítrico, o dióxido de enxofre total e o teor alcoólico.
+
+
+* ###  Acidez Fixa
+
+![boxplot acidez fixa](https://github.com/joaorodriguessneto/red_wine_quality/blob/main/img_readme/boxplot_acidez_fixa.png)
+
+#### O boxplot acima representa a distribuição dos valores de acidez fixa nos vinhos analisados. A mediana da acidez encontra-se em torno de 7,9, enquanto a maior concentração de valores (entre o primeiro e o terceiro quartil) varia aproximadamente de 7,1 a 8,7. Observa-se também a presença de diversos outliers acima de 12, indicando amostras com níveis significativamente mais altos de acidez fixa.
+
+![grafico de barras](https://github.com/joaorodriguessneto/red_wine_quality/blob/main/img_readme/grafico_barras_acidez_fixa.png)
+
+#### A análise da acidez fixa nos vinhos tintos, com base no boxplot e no histograma, mostra que a maioria das amostras está concentrada entre os valores 6,4 e 8,4, com mediana em torno de 7,9. Observa-se também a presença de outliers acima de 12, indicando uma distribuição assimétrica à direita. Esses resultados reforçam a importância da acidez fixa como variável relevante para a qualidade do vinho e destacam a necessidade de atenção ao tratar valores extremos no pré-processamento dos dados.
+
+* ###  Densidade
+
+![grafico de barras](https://github.com/joaorodriguessneto/red_wine_quality/blob/main/img_readme/grafico_frequencia_densidade.png)
+
+O gráfico acima apresenta a distribuição da densidade nos vinhos tintos, mas devido à grande quantidade de valores únicos e à proximidade entre eles, o resultado ficou visualmente poluído, dificultando a interpretação dos dados. O excesso de barras estreitas e sobreposição nos rótulos do eixo X compromete a clareza da visualização. Para melhorar a leitura e tornar a análise mais compreensível, optei por agrupar os valores por faixas (dezenas), o que permite observar padrões e tendências de forma mais clara e objetiva, sem perder informações relevantes.
+
+![grafico de barras](https://github.com/joaorodriguessneto/red_wine_quality/blob/main/img_readme/grafico_frequencia_densidade_dezena.png)
+
+
+
+
 ## 📊 Resultados Relevantes
 
   * A variável alcohol apresentou a maior correlação positiva com a qualidade (0.48)
