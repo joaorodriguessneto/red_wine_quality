@@ -198,5 +198,5 @@ Esse foi o melhor modelo entre os testados, apresentando resultados superiores �
 
 ## ✔️ Conclusão
 
-Com base na análise exploratória e na aplicação de modelos de machine learning, foi possível demonstrar que certas características físico-químicas têm impacto direto na avaliação da qualidade dos vinhos tintos. O modelo de Random Forest se destacou como a solução mais eficaz, podendo ser utilizado para auxiliar a vinícola na seleção de lotes com maior potencial de sucesso comercial.
-Este projeto reflete a aplicação prática da ciência de dados no setor enológico, promovendo decisões mais embasadas e estratégicas para o desenvolvimento de produtos de maior qualidade.
+A partir da análise exploratória dos dados e da implementação de algoritmos de machine learning, foi possível evidenciar a correlação significativa entre variáveis físico-químicas e a avaliação da qualidade dos vinhos tintos. O modelo Random Forest apresentou superioridade em métricas de desempenho, demonstrando alta capacidade preditiva e robustez frente aos dados, sendo indicado como ferramenta para otimização do processo de seleção de lotes com potencial comercial elevado.
+Este estudo exemplifica a aplicação avançada de técnicas de ciência de dados e aprendizado de máquina no domínio enológico, possibilitando a tomada de decisão baseada em evidências quantitativas e promovendo a melhoria contínua na qualidade e competitividade dos produtos.
