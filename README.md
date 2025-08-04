@@ -115,11 +115,31 @@
 
 ![grafico de barras](https://github.com/joaorodriguessneto/red_wine_quality/blob/main/img_readme/grafico_frequencia_densidade.png)
 
-O gráfico acima apresenta a distribuição da densidade nos vinhos tintos, mas devido à grande quantidade de valores únicos e à proximidade entre eles, o resultado ficou visualmente poluído, dificultando a interpretação dos dados. O excesso de barras estreitas e sobreposição nos rótulos do eixo X compromete a clareza da visualização. Para melhorar a leitura e tornar a análise mais compreensível, optei por agrupar os valores por faixas (dezenas), o que permite observar padrões e tendências de forma mais clara e objetiva, sem perder informações relevantes.
+#### O gráfico acima apresenta a distribuição da densidade nos vinhos tintos, mas devido à grande quantidade de valores únicos e à proximidade entre eles, o resultado ficou visualmente poluído, dificultando a interpretação dos dados. O excesso de barras estreitas e sobreposição nos rótulos do eixo X compromete a clareza da visualização. Para melhorar a leitura e tornar a análise mais compreensível, optei por agrupar os valores por faixas (dezenas), o que permite observar padrões e tendências de forma mais clara e objetiva, sem perder informações relevantes.
 
+![grafico de barras](https://github.com/joaorodriguessneto/red_wine_quality/blob/main/img_readme/grafico_barras_densidade_milesimo.png)
 
+#### Como o gráfico anterior estava poluído devido à grande quantidade de variações pontuais, optei por agrupar os valores de densidade em faixas milésimas (0.001), facilitando a visualização. A distribuição resultante é aproximadamente simétrica, com a maioria das amostras concentradas entre 0.995 e 0.998, e pico em 0.997. Isso indica que esse é o intervalo mais frequente. À medida que nos afastamos desse centro, a frequência diminui, formando um padrão semelhante a uma curva normal.
 
+* ###  Ácido Cítrico
 
+![grafico de barras](https://github.com/joaorodriguessneto/red_wine_quality/blob/main/img_readme/grafico_qualidade_acidocitrico.png)
+
+#### A partir do gráfico acima, é possível observar que vinhos com concentração de ácido cítrico entre 0.7 e 0.8 tendem a alcançar qualidade 6. Por outro lado, vinhos com nível 1 de ácido cítrico apresentam, em sua maioria, menor qualidade.
+
+* ###  Álcool
+
+![grafico de barras](https://github.com/joaorodriguessneto/red_wine_quality/blob/main/img_readme/grafico_qualidade_alcool.png)
+
+#### O gráfico mostra que, de forma geral, a qualidade média dos vinhos aumenta conforme o teor alcoólico. Nas faixas iniciais (entre 8.4% e 10.0% de álcool), a qualidade média varia entre 4.5 e 5.5. A partir de 10.0%, há uma tendência de crescimento, com destaque para vinhos entre 11.5% e 13.5%, que apresentam as maiores médias de qualidade, frequentemente acima de 6.0.
+
+* ###  Correlação
+
+![grafico de correlação](https://github.com/joaorodriguessneto/red_wine_quality/blob/main/img_readme/grafico_correlacao.png)
+
+#### A matriz de correlação mostra que, entre as variáveis numéricas, o álcool apresenta a correlação positiva mais forte com a qualidade do vinho (0.48), indicando que teores alcoólicos mais altos tendem a estar associados a vinhos melhor avaliados. Já a acidez volátil possui a correlação negativa mais significativa (-0.39), sugerindo que níveis elevados desse composto estão relacionados a vinhos de menor qualidade. Outras variáveis, como sulfatos (0.25) e ácido cítrico (0.23), também mostram correlação positiva, ainda que moderada. Em contrapartida, fatores como densidade, cloretos e os dióxidos de enxofre possuem correlações fracas ou próximas de zero com a qualidade, indicando menor influência direta sobre essa variável. Esses resultados ajudam a identificar quais características químicas têm maior impacto na avaliação final dos vinhos.
+
+## 🔀 Modelo de Classificação
 
 ## 📊 Resultados Relevantes
 
