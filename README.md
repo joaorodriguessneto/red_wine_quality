@@ -141,6 +141,40 @@
 
 ## 🔀 Modelo de Classificação
 
+* ### Modelo DummyClassifier
+
+![métrica dummy](https://github.com/joaorodriguessneto/red_wine_quality/blob/main/img_readme/metricas_dummy.png)
+
+O modelo apresenta acurácia e precisão de 53,54%, indicando que pouco mais da metade das previsões positivas são corretas. O recall de 100% mostra que ele identifica todos os casos positivos, sem deixar nenhum passar. Com um F1-score de 69,74%, há um bom equilíbrio entre precisão e recall, mas o fato de detectar todos os positivos pode indicar que o modelo está superajustado (overfitting), ou seja, ele pode estar memorizando os exemplos positivos do treino e gerando muitos falsos positivos. É importante avaliar e ajustar o modelo para evitar esse comportamento.
+
+![matriz de confusão dummy](https://github.com/joaorodriguessneto/red_wine_quality/blob/main/img_readme/matriz_confusao_dummy.png)
+
+* ### Modelo Árvore de Decisão
+
+![métrica arvore](https://github.com/joaorodriguessneto/red_wine_quality/blob/main/img_readme/metricas_arvore.png)
+
+O modelo apresenta uma acurácia de 69,38%, indicando que quase sete em cada dez previsões estão corretas. A precisão é alta, 81,25%, mostrando que a maioria das classificações positivas é correta. Porém, o recall está em 55,64%, indicando que o modelo identifica pouco mais da metade dos casos positivos reais. Com um F1-score de 66,05%, há um equilíbrio moderado entre precisão e recall. Esse comportamento sugere que o modelo é conservador ao prever positivos, priorizando evitar falsos positivos, mas perdendo vários positivos reais.
+
+![matriz de confusão arvore](https://github.com/joaorodriguessneto/red_wine_quality/blob/main/img_readme/matriz_confusao_arvore.png)
+
+* ### Modelo KNN
+
+![métrica knn](https://github.com/joaorodriguessneto/red_wine_quality/blob/main/img_readme/metricas_knn.png)
+
+O modelo apresenta uma acurácia de 72,50%, indicando que quase três quartos das previsões estão corretas. A precisão e o recall estão equilibrados, com 74,13% e 74,71%, respectivamente, mostrando que o modelo consegue identificar bem os positivos e tem uma taxa razoável de acertos nas previsões positivas. O F1-score, que representa esse equilíbrio, está em 74,42%. Esses resultados indicam um desempenho consistente e superior tanto à baseline quanto ao modelo de árvore, demonstrando que o modelo atual é mais eficaz na tarefa de classificação.
+
+![matriz de confusão knn](https://github.com/joaorodriguessneto/red_wine_quality/blob/main/img_readme/matriza_confusao_knn.png)
+
+* ### Modelo Random Forest
+
+![métrica random forest](https://github.com/joaorodriguessneto/red_wine_quality/blob/main/img_readme/metricas_random_forest.png)
+
+O modelo KNN apresentou uma acurácia de 76,88%, indicando que quase 77% das previsões foram corretas. A precisão de 78,08% mostra que a maioria das classificações positivas feitas pelo modelo é correta. O recall, em 78,99%, indica que o modelo identifica a maior parte dos casos positivos reais. Com um F1-score de 78,53%, o modelo demonstra um bom equilíbrio entre precisão e recall, refletindo um desempenho consistente.
+Esse foi o melhor modelo entre os testados, apresentando resultados superiores às outras abordagens. Portanto, o KNN foi escolhido para prever a classificação dos vinhos, garantindo maior confiabilidade e eficiência na tarefa de classificação.
+
+![matriz de confusão random forest](https://github.com/joaorodriguessneto/red_wine_quality/blob/main/img_readme/matriz_confusao_random_forest.png)
+
+
 ## 📊 Resultados Relevantes
 
   * A variável alcohol apresentou a maior correlação positiva com a qualidade (0.48)
